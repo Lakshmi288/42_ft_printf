@@ -62,15 +62,20 @@ int	ft_printf(const char *string, ...)
 }
 
 // #include <stdio.h>
-// int	main(void)
-// {
-// 	const char	*format1;
-// 	const char	*name;
-// 	int			result1;
 
-// 	format1 = "Hello, %s!";
-// 	name = "John";
-// 	result1 = ft_printf(format1, name);
-// 	printf("\nft_printf Result: %d\n", result1);
-// 	return (0);
+// int main(void)
+// {
+// 	char *str = "Lakshmi";
+// 	int rollno = 15;
+// 	char grade = 'p';
+//     int *rno;
+// 	rno = &rollno;
+
+// 	int result = ft_printf("\n name = %s \n rollno in int = %d\n rollno unsigned = %u\n rollno hex uppercase = %X\n rollno hex lowercase = %x \n grade = %c \n rollno ptr = %p  \n printing  %% \n", 
+//                             str, rollno, rollno, rollno, rollno, grade, rno);
+
+    
+//     printf("\n number of characters printed: %d\n", result);
+    
+//     return (0);
 // }
